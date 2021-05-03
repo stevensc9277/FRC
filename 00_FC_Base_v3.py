@@ -47,7 +47,7 @@ def yes_no(question):
 
 # currency formatting function
 def currency(x):
-    return "{:.2f}".format(x)
+    return "${:.2f}".format(x)
 
 # Gets expenses, returns lists which has the data frame and sub total
 def get_expenses(var_fixed):
