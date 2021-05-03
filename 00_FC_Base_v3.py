@@ -153,5 +153,6 @@ print("*** Fund Raising - {} ***".format(product_name))
 print()
 expense_print("Variable", variable_frame, variable_sub)
 
+# show fixed costs if there are any
 if have_fixed == "yes":
     expense_print("Fixed", fixed_frame[['Cost']], fixed_sub)
