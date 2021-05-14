@@ -1,18 +1,14 @@
 Custom Mugs
 
-        Item  Price  Quantity
-0       Mugs   1.00       300
-1   Printing   0.50       300
-2  Packaging   0.75        50
+            Price  Quantity     Cost
+Item                                
+Plain Mugs  $1.00       300  $300.00
+printing    $0.75       300  $225.00
+packaging   $0.50       300  $150.00
 
-          Item  Price
-0         Rent     25
-1      Artwork     35
-2  Advertising     10
-
-$100.00
-
-$200.00
-
-The recommended price is $5.00
+            Price  Quantity    Cost
+Item                               
+stallhire  $25.00         1  $25.00
+artwork    $35.00         1  $35.00
+signage    $15.00         1  $15.00
 
