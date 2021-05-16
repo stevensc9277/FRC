@@ -282,10 +282,10 @@ recommended_price = round_up(selling_price, round_to)
 # Change frames to strings
 variable_txt = pandas.DataFrame.to_string(variable_frame)
 fixed_txt = pandas.DataFrame.to_string(fixed_frame)
-profit_target = str(profit_target)
-sales_needed = str(sales_needed)
-recommended_price = str(recommended_price)
-to_write = [product_name, variable_txt, fixed_txt, profit_target, sales_needed, recommended_price]
+target_profit = "The profit target is ${:.2f}".format(profit_target)
+needed_sales = "You need {:.0f} sales".format(sales_needed)
+price_recommended = "The recommended price is ${:.2f}".format(recommended_price)
+to_write = [product_name, variable_txt, fixed_txt, target_profit, needed_sales, price_recommended]
 
 # Change dataframe to string (so it can be written to a text file)
 variable_txt = pandas.DataFrame.to_string(variable_frame)
@@ -324,7 +324,6 @@ print()
 
 print()
 print("*** Profit & Sales Targets ***")
-profit_target = float(profit_target)
 print("Profit Target: ${:.2f}".format(profit_target))
 print("Total Sales: ${:.2f}".format(all_costs + profit_target))
 

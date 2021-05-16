@@ -1,10 +1,10 @@
-custom mugs
+Super Cool Mugs
 
             Price  Quantity     Cost
 Item                                
 plain mugs  $1.00       300  $300.00
-printing    $0.75       300  $225.00
-packaging   $0.50       300  $150.00
+packaging   $0.75       300  $225.00
+printing    $0.50       300  $150.00
 
              Price  Quantity    Cost
 Item                                
@@ -12,9 +12,9 @@ stall hire  $35.00         1  $35.00
 signage     $25.00         1  $25.00
 artwork     $15.00         1  $15.00
 
-The profit target is 750.0
+The profit target is $750.00
 
-The sales needed are 1500.0
+The sales needed are 1500
 
 The recommended price is $100.00
 
