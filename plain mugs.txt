@@ -1,0 +1,16 @@
+plain mugs
+
+Empty DataFrame
+Columns: [Price, Quantity, Cost]
+Index: []
+
+*** There are no fixed expenses ***
+
+Total expenses are $0.00
+
+The profit target is $0.00
+
+You need 0 sales
+
+The recommended price is $0.00
+

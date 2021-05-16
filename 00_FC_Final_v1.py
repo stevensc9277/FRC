@@ -261,7 +261,6 @@ if have_fixed == "yes":
 else:
     fixed_sub = 0
 
-
 # work out total costs and profit goal
 all_costs = variable_sub + fixed_sub
 profit_target = profit_goal(all_costs)
@@ -281,11 +280,16 @@ recommended_price = round_up(selling_price, round_to)
 
 # Change frames to strings
 variable_txt = pandas.DataFrame.to_string(variable_frame)
-fixed_txt = pandas.DataFrame.to_string(fixed_frame)
+if have_fixed == "yes":
+    fixed_txt = pandas.DataFrame.to_string(fixed_frame)
+
+else:
+    fixed_txt = "*** There are no fixed expenses ***"
+total_expenses = "Total expenses are ${:.2f}".format(all_costs)
 target_profit = "The profit target is ${:.2f}".format(profit_target)
 needed_sales = "You need {:.0f} sales".format(sales_needed)
 price_recommended = "The recommended price is ${:.2f}".format(recommended_price)
-to_write = [product_name, variable_txt, fixed_txt, target_profit, needed_sales, price_recommended]
+to_write = [product_name, variable_txt, fixed_txt, total_expenses, target_profit, needed_sales, price_recommended]
 
 # Change dataframe to string (so it can be written to a text file)
 variable_txt = pandas.DataFrame.to_string(variable_frame)

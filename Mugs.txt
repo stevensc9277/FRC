@@ -1,0 +1,18 @@
+Mugs
+
+            Price  Quantity     Cost
+Item                                
+plain mugs  $1.00       300  $300.00
+printing    $0.75       300  $225.00
+packaging   $0.50       100   $50.00
+
+There are no fixed expenses
+
+Total expenses are $575.00
+
+The profit target is $287.50
+
+You need 862 sales
+
+The recommended price is $3.00
+
