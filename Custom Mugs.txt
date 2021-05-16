@@ -1,14 +1,20 @@
-Custom Mugs
+custom mugs
 
             Price  Quantity     Cost
 Item                                
-Plain Mugs  $1.00       300  $300.00
-printing    $0.75       300  $225.00
+plain mugs  $1.00       300  $300.00
 packaging   $0.50       300  $150.00
+printing    $0.75       300  $225.00
 
-            Price  Quantity    Cost
-Item                               
-stallhire  $25.00         1  $25.00
-artwork    $35.00         1  $35.00
-signage    $15.00         1  $15.00
+             Price  Quantity    Cost
+Item                                
+stall hire  $35.00         1  $35.00
+signage     $15.00         1  $15.00
+artwork     $25.00         1  $25.00
+
+750.0
+
+1500.0
+
+100
 
