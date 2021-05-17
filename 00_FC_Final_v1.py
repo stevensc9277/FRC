@@ -285,6 +285,7 @@ if have_fixed == "yes":
 
 else:
     fixed_txt = "*** There are no fixed expenses ***"
+    
 total_expenses = "Total expenses are ${:.2f}".format(all_costs)
 target_profit = "The profit target is ${:.2f}".format(profit_target)
 needed_sales = "You need {:.0f} sales".format(sales_needed)
