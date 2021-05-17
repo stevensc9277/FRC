@@ -86,7 +86,7 @@ def get_expenses(var_fixed):
     return [expense_frame, sub_total]
 # *** Main routine starts here ***
 
-# ZGet product name
+# Get product name
 
 variable_expenses = get_expenses("variable")
 variable_frame = variable_expenses[0]
@@ -96,4 +96,3 @@ variable_sub = variable_expenses[1]
 print()
 print(variable_frame)
 print()
-print("Variable Costs: ${:.2f}".format(sub_total))
