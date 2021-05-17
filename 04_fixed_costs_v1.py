@@ -94,7 +94,7 @@ def get_expenses(var_fixed):
 # Get product name
 # product_name = not_blank("Product name: ", "The product name")
 
-fixed_expenses = get_expenses("Fixed")
+fixed_expenses = get_expenses("fixed")
 fixed_frame = fixed_expenses[0]
 fixed_sub = fixed_expenses[1]
 

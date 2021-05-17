@@ -81,9 +81,6 @@ def profit_goal(total_costs):
             return goal
 
 
-
-
-
 # Loop for quick testing
 all_costs = 200
 for item in range(0, 6):
