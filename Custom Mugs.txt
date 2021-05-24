@@ -1,20 +1,19 @@
-custom mugs
+Custom Mugs
 
-            Price  Quantity     Cost
-Item                                
-plain mugs  $1.00       300  $300.00
-printing    $0.75       300  $225.00
-packaging   $0.50       300  $150.00
+Empty DataFrame
+Columns: [Price, Quantity, Cost]
+Index: []
 
-             Price  Quantity    Cost
-Item                                
-stall hire  $35.00         1  $35.00
-signage     $25.00         1  $25.00
-artwork     $15.00         1  $15.00
+       Price  Quantity    Cost
+Item                          
+rent   $0.10         1   $0.10
+Adds  $20.00         1  $20.00
 
-The profit target is 750.0
+Total expenses are $20.10
 
-The sales needed are 1500.0
+The profit target is $10.00
 
-The recommended price is $100.00
+You need 30 sales
+
+The recommended price is $1.00
 
